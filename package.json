@@ -20,6 +20,12 @@
     "start": "cds-serve"
   },
   "cds": {
+    "fiori": {
+      "preview": true
+    },
+    "server": {
+      "index": true
+    },
     "requires": {
       "db": {
         "kind": "sqlite",
